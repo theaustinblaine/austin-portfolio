@@ -9,10 +9,16 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
+// import ipad from '../assets/images/ipad.png';
 import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+// import bgMaster from '../assets/images/bg-masthead.jpg';
+import austin from '../assets/images/austin.jpg';
+// import amp_code from '../assets/images/amp_code.png';
+import combine from '../assets/images/Connect3and1.png'
+import gascap from '../assets/images/Gascap.png'
+import delay from '../assets/images/Delay.png'
+import indiepk from '../assets/images/indiepk.png'
 
 const IndexPage = () => (
   <Layout>
@@ -27,7 +33,7 @@ const IndexPage = () => (
           </h2>
           <Scroll type="id" element="about">
             <a href="#about" className="btn btn-primary">
-              About
+              About Me
             </a>
           </Scroll>
         </div>
@@ -49,7 +55,7 @@ const IndexPage = () => (
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        <img src={austin} width="300" className="img-fluid" alt="" />
       </div>
     </section>
 
@@ -57,7 +63,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src={indiepk} alt="" />
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
@@ -71,9 +77,30 @@ const IndexPage = () => (
           </div>
         </div>
 
+        <div className="row justify-content-center no-gutters">
+          <div className="col-lg-6">
+            <img className="img-fluid" src={delay} alt="" />
+          </div>
+          <div className="col-lg-6 order-lg-first">
+            <div className="bg-black text-center h-100 project">
+              <div className="d-flex h-100">
+                <div className="project-text w-100 my-auto text-center text-lg-right">
+                  <h4 className="text-white">Mountains</h4>
+                  <p className="mb-0 text-white-50">
+                    Another example of a project with its respective
+                    description. These sections work well responsively as well,
+                    try this theme on a small screen!
+                  </p>
+                  <hr className="d-none d-lg-block mb-0 mr-0" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src={gascap} alt="" />
           </div>
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
@@ -93,7 +120,7 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage2} alt="" />
+            <img className="img-fluid" src={combine} alt="" />
           </div>
           <div className="col-lg-6 order-lg-first">
             <div className="bg-black text-center h-100 project">
