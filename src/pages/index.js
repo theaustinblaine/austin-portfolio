@@ -9,12 +9,7 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-// import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image-02.jpg';
-// import bgMaster from '../assets/images/bg-masthead.jpg';
 import austin from '../assets/images/austin.jpg';
-// import amp_code from '../assets/images/amp_code.png';
 import combine from '../assets/images/Connect3and1.png'
 import gascap from '../assets/images/Gascap.png'
 import delay from '../assets/images/Delay.png'
@@ -44,14 +39,9 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 className="text-white mb-4">Hello, Meet Austin</h2>
             <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
+              I develop web applications
             </p>
           </div>
         </div>
@@ -67,7 +57,7 @@ const IndexPage = () => (
           </div>
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>indiEPK</h4>
               <p className="text-black-50 mb-0">
                 Grayscale is open source and MIT licensed. This means you can
                 use it for any project - even commercial projects! Download it,
@@ -85,7 +75,7 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Delay</h4>
                   <p className="mb-0 text-white-50">
                     Another example of a project with its respective
                     description. These sections work well responsively as well,
@@ -106,7 +96,7 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">Gascap</h4>
                   <p className="mb-0 text-white-50">
                     An example of where you can put an image of a project, or
                     anything else, along with a description.
@@ -126,7 +116,7 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Combine 3 & 1</h4>
                   <p className="mb-0 text-white-50">
                     Another example of a project with its respective
                     description. These sections work well responsively as well,
